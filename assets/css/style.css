@@ -25,7 +25,11 @@ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
 
+.hidden-heading
+{
+    display: none;
 }
 
 /*Header*/
@@ -272,11 +276,11 @@ margin-bottom: 20px;
             width: 100%;
         }
 
-                #benefits-physical > div,
-                #benefits-mental > div,
-                {
-                    width: 75%;
-                }
+        #benefits-physical > div,
+        #benefits-mental > div
+        {
+        width: 75%;
+        }
         #benefits-mental > div
         {
             text-align: end;
@@ -303,9 +307,9 @@ margin-bottom: 20px;
         display: flex;
         flex-direction: row;
     }
-        #benefits > descent-override: {
+        #benefits > descent-override {
             flex: 1;
-        };
+        }
 
         #benefits-image
         {
